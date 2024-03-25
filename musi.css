@@ -1,0 +1,74 @@
+/* styles.css */
+
+
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000000, #000000);
+    color: #fff;
+}
+
+
+/* Header */
+
+header {
+    background: linear-gradient(to right, #080808, #9a17e7);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Music section */
+
+.music-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.song-card {
+    margin-bottom: 20px;
+}
+
+.song-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.song-card h3 {
+    margin-top: 10px;
+}
+
+.song-card p {
+    margin-bottom: 10px;
+}
+
+
+/* Additional sections and styles can be added here */
+
+.music-line {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    background: linear-gradient(135deg, #000000, #f70147);
+}

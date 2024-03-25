@@ -1,0 +1,66 @@
+/* styles.css */
+
+
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000000, #ffb20a);
+    color: #fff;
+}
+
+
+/* Header */
+
+header {
+    background: linear-gradient(to right, #000000, #ffffff);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Artist section */
+
+.artist-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.artist-card {
+    margin-bottom: 20px;
+}
+
+.artist-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.artist-card h3 {
+    margin-top: 10px;
+}
+
+.artist-card p {
+    margin-bottom: 10px;
+}
+
+
+/* Additional sections and styles can be added here */

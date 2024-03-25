@@ -1,0 +1,84 @@
+/* styles.css */
+
+
+/* search bar css  */
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    padding: 8px;
+    border: 2px solid rgb(177, 106, 210);
+    /* RGB color values */
+    border-radius: 20px;
+    /* Adjust the value for roundness */
+    margin-right: 5px;
+    width: 300px;
+    outline: none;
+    /* Remove default focus outline */
+}
+
+button {
+    padding: 8px 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #737373;
+    cursor: pointer;
+}
+
+
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #000000, #ffffff);
+    color: #fff;
+}
+
+
+/* Header */
+
+header {
+    background: linear-gradient(to right, #e7e0e0, #000000);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Hero section */
+
+.hero {
+    background: linear-gradient(135deg, #000000, #9706a7);
+    padding: 50px;
+    text-align: center;
+}
+
+.cta-button {
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+/* Additional sections and styles can be added here */
